@@ -10,7 +10,7 @@
         <div class="relative z-10 col-span-6 my-auto">
           <div class="my-auto">
             <h2
-              class="font-secondary text-2xl font-medium capitalize text-primary-light-blue lg:mt-0 lg:text-4xl"
+              class="font-secondary text-2xl font-semibold capitalize text-primary-light-blue lg:mt-0 lg:text-4xl"
             >
               find out about new games
             </h2>
