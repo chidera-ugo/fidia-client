@@ -19,7 +19,7 @@ module.exports = {
         primary: {
           pink: '#f91e68',
           'dark-blue': '#000033',
-          'light-blue': '#8EB8Ef',
+          'light-blue': '#5E72EB',
         },
       },
       screen: {
@@ -49,5 +49,8 @@ module.exports = {
       },
     },
   },
-  plugins: [require('tailwindcss-textshadow')],
+  plugins: [
+    require('tailwindcss-textshadow'),
+     require('@tailwindcss/line-clamp')
+  ],
 }

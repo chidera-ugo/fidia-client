@@ -7,109 +7,79 @@
           data-aos-duration="1200"
           data-aos-easing="ease-in-out"
           data-aos-once="true"
-          class="relative z-10 text-center font-secondary text-5xl font-bold capitalize leading-none text-white text-shadow-lg"
+          class="relative z-10 mb-3 text-center font-secondary text-5xl font-bold capitalize leading-none text-white text-shadow-lg"
         >
           Top Games
         </h1>
-
         <img
           data-aos="fade"
           data-aos-delay="1200"
           data-aos-duration="900"
           data-aos-easing="ease-in-out"
           data-aos-once="true"
-          src="/images/smudge.png"
-          class="absolute -top-32 z-0 col-span-6 mx-auto my-auto flex h-64 align-middle md:mx-auto"
+          src="/images/smudge-two.png"
+          class="absolute inset-0 z-0 col-span-6 mx-auto my-auto h-44"
         />
       </div>
       <div class="mt-24 grid-cols-12 gap-8 lg:grid">
-        <div
-          v-for="(record, index) in records"
-          :key="record.title"
+        <TopGamesCard
+          v-for="(game, index) in topGames"
+          :key="game.title"
+          :game-info="game"
           data-aos="fade-top"
           :data-aos-delay="index * 300"
           data-aos-duration="900"
           data-aos-easing="ease-in-out"
           data-aos-once="true"
-          class="col-span-4 my-4 flex rounded-xl bg-white bg-opacity-10 p-6 align-middle shadow-lg backdrop-blur-xl backdrop-filter"
-        >
-          <img :src="record.image" class="my-auto mr-5 h-20 md:h-16 lg:h-20" />
-          <div class="my-auto">
-            <div class="text-3xl font-bold text-white">
-              {{ Number(record.value).toLocaleString() }}
-            </div>
-
-            <div class="mt-2 font-secondary text-lg uppercase text-white">
-              {{ record.title }}
-            </div>
-          </div>
-        </div>
+        />
       </div>
-
-      <!-- <div class="py-3"></div>
-
-      <div class="flex w-full justify-center align-middle">
-        <div class="carousel absolute -bottom-36 z-40 mx-auto">
-          <VueSlickCarousel :arrows="true">
-            <CarouselCard
-              v-for="carouselInfo in carouselItems"
-              :key="carouselInfo.person"
-              :carousel-info="carouselInfo"
-            />
-          </VueSlickCarousel>
-        </div>
-      </div> -->
     </div>
   </section>
 </template>
 
-<script>
+<script lang="ts">
 import Vue from 'vue'
+import { IGame } from '~/utils/types'
 
 export default Vue.extend({
   data() {
-    const records = [
+    const topGames: IGame[] = [
       {
-        image:
-          // 'http://pixner.net/ophela/demo/assets/images/elements/features/1.png',
-          '/images/icons/1.png',
-        value: 12,
-        title: 'games',
+        image: 'http://pixner.net/ophela/demo/assets/images/games/1.jpg',
+        title: 'lord clan',
+        icon: '/images/icons/1.png',
+        description:
+          'Esse voluptate eiusmod eu reprehenderit mollit in cupidatat ex aliqua.',
+        rating: 4,
       },
       {
-        image: '/images/icons/2.png',
-        value: 12000,
-        title: 'players',
+        image: 'http://pixner.net/ophela/demo/assets/images/games/2.jpg',
+        title: 'gal gadot',
+        icon: '/images/icons/2.png',
+        description:
+          'Esse voluptate eiusmod eu reprehenderit mollit in cupidatat ex aliqua.',
+        rating: 4,
       },
       {
-        image: '/images/icons/3.png',
-        value: 420,
-        title: 'champions',
-      },
-    ]
-
-    const carouselItems = [
-      {
-        person: 'Jerry Obediah',
-        image: '/images/testimonials/1.png',
+        image: 'http://pixner.net/ophela/demo/assets/images/games/3.jpg',
+        title: 'clash of clans',
+        icon: '/images/icons/3.png',
+        description:
+          'Esse voluptate eiusmod eu reprehenderit mollit in cupidatat ex aliqua.',
+        rating: 4,
       },
       {
-        person: 'Sarah Kensington',
-        image: '/images/testimonials/1.png',
-      },
-      {
-        person: 'Jeffery Obediah',
-        image: '/images/testimonials/1.png',
+        image: 'http://pixner.net/ophela/demo/assets/images/games/4.jpg',
+        title: 'pixner assiar',
+        icon: '/images/icons/1.png',
+        description:
+          'Esse voluptate eiusmod eu reprehenderit mollit in cupidatat ex aliqua.',
+        rating: 4,
       },
     ]
 
     return {
-      records,
-      carouselItems,
-      slickOptions: {
-        slidesToShow: 3,
-        arrows: false,
-      },
+      topGames,
     }
   },
 })

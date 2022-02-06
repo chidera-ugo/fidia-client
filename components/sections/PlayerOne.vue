@@ -1,7 +1,7 @@
 <template>
   <section
     id="about-us"
-    class="relative bg-primary-dark-blue bg-cover xl:min-h-screen"
+    class="relative overflow-hidden bg-primary-dark-blue bg-cover xl:min-h-screen"
   >
     <div
       class="absolute inset-0 bottom-0 hidden h-full w-full flex-col justify-center align-middle lg:flex"
@@ -34,7 +34,7 @@
                 data-aos-duration="1200"
                 data-aos-easing="ease-in-out"
                 data-aos-once="true"
-                class="relative z-10 font-secondary text-5xl font-bold capitalize leading-none text-white text-shadow-lg"
+                class="relative z-10 font-secondary text-4xl font-bold capitalize leading-tight text-white text-shadow-lg md:text-5xl"
               >
                 we focus on quality entertainment
               </h1>
@@ -46,7 +46,7 @@
                 data-aos-easing="ease-in-out"
                 data-aos-once="true"
                 src="/images/smudge.png"
-                class="absolute -top-32 z-0 col-span-6 my-auto mr-auto flex h-64 align-middle md:mx-auto"
+                class="absolute -top-20 z-0 col-span-6 my-auto mr-auto flex h-44 align-middle sm:h-64 md:-top-32 md:mx-auto"
               />
             </div>
 
