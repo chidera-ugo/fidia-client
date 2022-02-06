@@ -2,7 +2,7 @@
   <section
     id="track-record"
     style="background-image: url('/images/overview.jpg')"
-    class="relative z-40 overflow-hidden bg-primary-dark-blue bg-cover"
+    class="bg-primary-dark-blue bg-cover"
   >
     <div class="mx-auto max-w-7xl px-6 py-44">
       <h1

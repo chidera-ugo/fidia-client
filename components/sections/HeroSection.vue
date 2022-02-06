@@ -1,5 +1,9 @@
 <template>
-  <section id="home" class="bg-primary-dark-blue bg-cover xl:min-h-screen">
+  <section
+    id="home"
+    style="background-image: url('/images/hero-bg.jpg')"
+    class="bg-primary-dark-blue bg-cover xl:min-h-screen"
+  >
     <div class="mx-auto max-w-7xl px-6 py-44">
       <div class="grid-cols-12 lg:grid">
         <div class="col-span-6 flex flex-col justify-center align-middle">

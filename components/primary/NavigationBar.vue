@@ -1,6 +1,6 @@
 <template>
   <div
-    class="fixed inset-0 top-0 z-40 h-14 w-screen bg-primary-dark-blue bg-opacity-60 backdrop-blur-xl backdrop-filter"
+    class="fixed inset-0 top-0 z-40 h-14 w-screen backdrop-blur-xl backdrop-filter"
   >
     <div
       class="mx-auto flex h-full max-w-7xl justify-between px-6 align-middle"
@@ -14,7 +14,7 @@
         <NuxtLink
           v-for="item in navigationItems"
           :key="item"
-          :to="`/${item.split(' ').join('-')}`"
+          :to="`/#${item.split(' ').join('-')}`"
           class="px-4 py-2 font-medium uppercase text-white duration-300 ease-linear hover:text-primary-pink"
           >{{ item }}</NuxtLink
         >

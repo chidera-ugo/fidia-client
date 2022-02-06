@@ -1,6 +1,7 @@
 <template>
   <div>
     <HeroSection />
+    <TopGamesSection />
     <PlayerOne />
     <TrackRecordSection />
     <SubscribeSection />

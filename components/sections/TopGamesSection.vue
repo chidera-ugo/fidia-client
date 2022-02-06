@@ -1,9 +1,5 @@
 <template>
-  <section
-    id="track-record"
-    style="background-image: url('/images/overview.jpg')"
-    class="relative z-40 overflow-hidden bg-primary-dark-blue bg-cover"
-  >
+  <section id="track-record" class="bg-primary-dark-blue bg-cover">
     <div class="mx-auto max-w-7xl px-6 py-44">
       <div class="relative">
         <h1
@@ -11,7 +7,7 @@
           data-aos-duration="1200"
           data-aos-easing="ease-in-out"
           data-aos-once="true"
-          class="relative z-10 font-secondary text-5xl font-bold capitalize leading-none text-white text-shadow-lg"
+          class="relative z-10 text-center font-secondary text-5xl font-bold capitalize leading-none text-white text-shadow-lg"
         >
           Top Games
         </h1>
@@ -23,7 +19,7 @@
           data-aos-easing="ease-in-out"
           data-aos-once="true"
           src="/images/smudge.png"
-          class="absolute -top-32 z-0 col-span-6 my-auto mr-auto flex h-64 align-middle md:mx-auto"
+          class="absolute -top-32 z-0 col-span-6 mx-auto my-auto flex h-64 align-middle md:mx-auto"
         />
       </div>
       <div class="mt-24 grid-cols-12 gap-8 lg:grid">
