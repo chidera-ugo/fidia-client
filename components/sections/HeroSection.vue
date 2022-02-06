@@ -15,9 +15,9 @@
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               data-aos-once="true"
-              class="t-primary mt-5 text-3xl font-bold tracking-wider text-primary-pink sm:mt-0 md:text-4xl"
+              class="mt-5 text-xl font-bold uppercase tracking-wider text-primary-pink sm:mt-0 md:text-2xl"
             >
-              METASINO
+              more than just an idea
             </h3>
 
             <div class="py-2 lg:py-4"></div>
@@ -28,9 +28,9 @@
               data-aos-duration="1200"
               data-aos-easing="ease-in-out"
               data-aos-once="true"
-              class="font-secondary text-5xl font-bold leading-none text-white text-shadow-lg md:text-6xl xl:text-7.5xl"
+              class="font-secondary text-5xl font-bold uppercase leading-tight text-white text-shadow-lg md:text-6xl md:leading-none xl:text-7xl"
             >
-              THE FUTURE OF GAMING
+              casino in the metaverse
             </h1>
 
             <h4
@@ -42,9 +42,10 @@
               data-aos-once="true"
               class="mt-6 text-lg font-light leading-relaxed text-gray-200"
             >
-              Assertively Communicate An Expanded Array Of Mindshare Rather Than
-              Diverse Technologies For Magnetic Applications Eamlessly Virtual
-              Then Conveniently Monetize Synergistic Human Capital
+              Metasino is a decentralized virtual casino built on the blockchain
+              to be played in the Metaverse using the Metasino native token -
+              $CASINO. Participants all around the world will come to Metasino
+              to play different casino games and win redeemable rewards.
             </h4>
 
             <div class="py-4"></div>

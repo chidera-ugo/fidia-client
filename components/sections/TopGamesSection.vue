@@ -45,7 +45,7 @@ export default Vue.extend({
   data() {
     const topGames: IGame[] = [
       {
-        image: 'http://pixner.net/ophela/demo/assets/images/games/1.jpg',
+        image: 'https://pixner.net/ophela/demo/assets/images/games/1.jpg',
         title: 'lord clan',
         icon: '/images/icons/1.png',
         description:
@@ -53,7 +53,7 @@ export default Vue.extend({
         rating: 4,
       },
       {
-        image: 'http://pixner.net/ophela/demo/assets/images/games/2.jpg',
+        image: 'https://pixner.net/ophela/demo/assets/images/games/2.jpg',
         title: 'gal gadot',
         icon: '/images/icons/2.png',
         description:
@@ -61,7 +61,7 @@ export default Vue.extend({
         rating: 4,
       },
       {
-        image: 'http://pixner.net/ophela/demo/assets/images/games/3.jpg',
+        image: 'https://pixner.net/ophela/demo/assets/images/games/3.jpg',
         title: 'clash of clans',
         icon: '/images/icons/3.png',
         description:
@@ -69,7 +69,7 @@ export default Vue.extend({
         rating: 4,
       },
       {
-        image: 'http://pixner.net/ophela/demo/assets/images/games/4.jpg',
+        image: 'https://pixner.net/ophela/demo/assets/images/games/4.jpg',
         title: 'pixner assiar',
         icon: '/images/icons/1.png',
         description:

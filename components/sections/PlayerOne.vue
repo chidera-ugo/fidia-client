@@ -58,13 +58,12 @@
               data-aos-once="true"
               class="mt-6 text-lg font-light leading-relaxed text-gray-200"
             >
-              Our main focus is to provide the best entertainment possible for
-              our players. We place key emphasis on creating games that are of a
-              high quality in every way possible. This means that we ensure that
-              all our games themes are engaging, our features unique and
-              captivating and our art, stunning and precise! We don’t cut
-              corners and do whatever is necessary to offer a memorable gameplay
-              experience.
+              Metasino implores creative game theory algorithms to ensure that
+              all participants in metasino will abide by the community
+              governance accordingly. Our unique staking and the locking
+              mechanism will ensure all metasino players worth are valued
+              properly. This ‘true worth’ will ensure decentralization is
+              maintained and whales do not interfere.
             </h4>
 
             <div class="py-4"></div>

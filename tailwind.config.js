@@ -1,5 +1,6 @@
 module.exports = {
-  purge: [
+  mode: 'jit',
+  content: [
     './components/**/*.{js,vue,ts}',
     './layouts/**/*.vue',
     './pages/**/*.vue',
@@ -51,6 +52,6 @@ module.exports = {
   },
   plugins: [
     require('tailwindcss-textshadow'),
-     require('@tailwindcss/line-clamp')
+    require('@tailwindcss/line-clamp'),
   ],
 }

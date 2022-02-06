@@ -5,7 +5,7 @@
       :src="gameInfo.image"
     />
     <div
-      class="mobile:px-6 relative z-20 -mt-16 w-full bg-primary-light-blue py-4 px-4 shadow-lg"
+      class="mobile:px-6 relative z-20 -mt-16 w-full bg-purple-700 py-4 px-4 shadow-lg"
     >
       <div class="flex justify-between align-middle">
         <div class="my-auto w-full">

@@ -76,19 +76,19 @@ export default Vue.extend({
     const socialMedia = [
       {
         title: 'linkedIn',
-        url: 'https://linkedin.com/in/chidera-ugo',
+        url: 'https://google.com',
       },
       {
         title: 'github',
-        url: 'https://github.com/chidera-ugo',
+        url: 'https://google.com',
       },
       {
         title: 'twitter',
-        url: 'https://twitter.com/_chideraugo',
+        url: 'https://google.com',
       },
       {
         title: 'instagram',
-        url: 'https://instagram.com/_chideraugo',
+        url: 'https://google.com',
       },
     ]
 

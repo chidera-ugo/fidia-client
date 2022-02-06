@@ -21,7 +21,7 @@
       </div>
       <button class="-mr-4 inline-block p-4 focus:outline-none lg:hidden">
         <svg
-          xmlns="http://www.w3.org/2000/svg"
+          xmlns="https://www.w3.org/2000/svg"
           class="my-auto h-6 w-6 text-white"
           fill="none"
           viewBox="0 0 24 24"
