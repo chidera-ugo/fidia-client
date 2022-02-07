@@ -1,7 +1,7 @@
 <template>
   <section
     id="home"
-    style="background-image: url('/images/hero-bg.jpg')"
+    style="background-image: url('/images/hero-bg.webp')"
     class="relative bg-primary-dark-blue bg-cover xl:min-h-screen"
   >
     <div class="absolute inset-0 z-0 h-full w-full xl:w-2/3">
@@ -22,7 +22,7 @@
         data-aos-easing="ease-in-out"
         data-aos-once="true"
         src="/images/hero/el-10.png"
-        class="absolute right-16 top-80 h-10 animate-roose"
+        class="absolute right-16 top-80 hidden h-10 animate-roose md:block"
       />
 
       <img
@@ -32,7 +32,7 @@
         data-aos-easing="ease-in-out"
         data-aos-once="true"
         src="/images/hero/el-11.png"
-        class="absolute right-32 top-64 h-10 animate-fleet"
+        class="absolute right-32 top-64 hidden h-10 animate-fleet md:block"
       />
     </div>
     <div class="relative z-10 mx-auto max-w-7xl px-6 py-44">
