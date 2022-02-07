@@ -2,6 +2,7 @@
   <div>
     <HeroSection />
     <TopGamesSection />
+    <GameTrailerSection />
     <PlayerOne />
     <TrackRecordSection />
     <SubscribeSection />

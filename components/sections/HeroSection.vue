@@ -2,9 +2,40 @@
   <section
     id="home"
     style="background-image: url('/images/hero-bg.jpg')"
-    class="bg-primary-dark-blue bg-cover xl:min-h-screen"
+    class="relative bg-primary-dark-blue bg-cover xl:min-h-screen"
   >
-    <div class="mx-auto max-w-7xl px-6 py-44">
+    <div class="absolute inset-0 z-0 h-full w-full xl:w-2/3">
+      <img
+        data-aos="fade"
+        data-aos-delay="1800"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out"
+        data-aos-once="true"
+        src="/images/hero/el-6.png"
+        class="absolute left-0 top-32 h-72 animate-float"
+      />
+
+      <img
+        data-aos="fade"
+        data-aos-delay="2100"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out"
+        data-aos-once="true"
+        src="/images/hero/el-10.png"
+        class="absolute right-16 top-80 h-10 animate-roose"
+      />
+
+      <img
+        data-aos="fade"
+        data-aos-delay="1500"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out"
+        data-aos-once="true"
+        src="/images/hero/el-11.png"
+        class="absolute right-32 top-64 h-10 animate-fleet"
+      />
+    </div>
+    <div class="relative z-10 mx-auto max-w-7xl px-6 py-44">
       <div class="grid-cols-12 lg:grid">
         <div class="col-span-6 flex flex-col justify-center align-middle">
           <div class="my-auto">

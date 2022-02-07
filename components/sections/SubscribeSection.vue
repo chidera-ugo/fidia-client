@@ -10,11 +10,11 @@
         <div class="relative z-10 col-span-6 my-auto">
           <div class="my-auto">
             <h2
-              class="font-secondary text-2xl font-semibold capitalize text-primary-light-blue lg:mt-0 lg:text-4xl"
+              class="font-secondary text-2xl font-semibold capitalize text-white lg:mt-0 lg:text-4xl"
             >
               find out about new games
             </h2>
-            <h4 class="mt-2 text-primary-light-blue">
+            <h4 class="mt-2 text-white">
               Subscribe to get updated on future game releases
             </h4>
 

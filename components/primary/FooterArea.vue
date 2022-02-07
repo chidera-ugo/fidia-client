@@ -17,7 +17,7 @@
             v-for="link in option.links"
             :key="link"
             :to="`/#`"
-            class="block py-2 text-base capitalize duration-300 ease-linear hover:text-primary-pink"
+            class="block py-2 text-base capitalize duration-200 ease-linear hover:text-primary-pink"
           >
             {{ link }}
           </NuxtLink>

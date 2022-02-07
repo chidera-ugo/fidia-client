@@ -1,5 +1,4 @@
 module.exports = {
-  mode: 'jit',
   content: [
     './components/**/*.{js,vue,ts}',
     './layouts/**/*.vue',
@@ -21,6 +20,11 @@ module.exports = {
           pink: '#f91e68',
           'dark-blue': '#000033',
           'light-blue': '#5E72EB',
+        },
+        gradient: {
+          'hero-blue': '#034389',
+          'hero-dark': '#190812',
+          'left-dark': '#241124',
         },
       },
       screen: {
@@ -47,6 +51,9 @@ module.exports = {
       },
       animation: {
         float: 'float 3s ease-in-out infinite',
+        glide: 'float 6s ease-in-out infinite',
+        fleet: 'float 2s ease-in-out infinite',
+        roose: 'float 4s ease-in-out infinite',
       },
     },
   },

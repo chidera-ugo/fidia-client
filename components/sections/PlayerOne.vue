@@ -4,7 +4,7 @@
     class="relative overflow-hidden bg-primary-dark-blue bg-cover xl:min-h-screen"
   >
     <div
-      class="absolute inset-0 bottom-0 hidden h-full w-full flex-col justify-center align-middle lg:flex"
+      class="absolute inset-0 bottom-0 z-0 hidden h-full w-full flex-col justify-center align-middle lg:flex"
     >
       <img
         data-aos="slide-left"
@@ -24,7 +24,7 @@
         class="absolute left-0 z-20 my-auto mr-auto flex h-104 align-middle md:mx-auto"
       />
     </div>
-    <div class="mx-auto max-w-7xl px-6 py-44">
+    <div class="relative z-10 mx-auto max-w-7xl px-6 py-44">
       <div class="grid-cols-12 lg:grid">
         <div class="col-span-6 flex flex-col justify-center align-middle">
           <div class="my-auto">

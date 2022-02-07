@@ -1,3 +1,5 @@
+import { join } from 'path'
+
 // Target: https://go.nuxtjs.dev/config-target
 export default {
   target: 'static',
@@ -15,7 +17,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['aos/dist/aos.css', '@/assets/css/main.css'],
+  css: ['aos/dist/aos.css', '@/assets/css/tailwind.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
@@ -37,9 +39,9 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/typescript
-    '@nuxt/typescript-build',
     '@nuxtjs/tailwindcss',
     '@nuxt/postcss8',
+    '@nuxt/typescript-build',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

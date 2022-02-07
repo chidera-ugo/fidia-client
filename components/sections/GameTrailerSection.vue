@@ -1,16 +1,16 @@
 <template>
-  <section id="games" class="bg-primary-dark-blue">
+  <section id="top-games" class="bg-primary-dark-blue">
     <div class="mx-auto max-w-7xl px-6 py-44">
       <div class="relative">
         <h1
           data-aos="fade"
-          data-aos-duration="900"
           data-aos-delay="300"
+          data-aos-duration="800"
           data-aos-easing="ease-in-out"
           data-aos-once="true"
           class="relative z-10 mb-3 text-center font-secondary text-5xl font-bold capitalize leading-none text-white text-shadow-lg"
         >
-          Top Games
+          Game Trailer
         </h1>
         <img
           data-aos="fade"
@@ -21,18 +21,9 @@
           class="absolute inset-0 z-0 col-span-6 mx-auto my-auto h-44"
         />
       </div>
-      <div class="mt-24 grid-cols-12 gap-8 lg:grid">
-        <TopGamesCard
-          v-for="(game, index) in topGames"
-          :key="game.title"
-          :game-info="game"
-          data-aos="fade-top"
-          :data-aos-delay="index * 300"
-          data-aos-duration="900"
-          data-aos-easing="ease-in-out"
-          data-aos-once="true"
-        />
-      </div>
+      <div
+        class="mx-auto mt-32 h-104 w-full rounded-2xl border-4 border-gradient-hero-blue bg-primary-light-blue bg-opacity-10"
+      ></div>
     </div>
   </section>
 </template>
@@ -95,21 +86,6 @@ export default Vue.extend({
   }
 
   transform: translateY(50px);
-
-  &.aos-animate {
-    transform: translateY(0);
-  }
-}
-
-[data-aos='fade-down'] {
-  opacity: 0;
-  transition-property: transform, opacity;
-
-  &.aos-animate {
-    opacity: 1;
-  }
-
-  transform: translateY(-50px);
 
   &.aos-animate {
     transform: translateY(0);
