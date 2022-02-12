@@ -1,24 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400&family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-  /* body::-webkit-scrollbar {
-    display: none;
-  } */
-
   html {
     @apply font-primary;
     scroll-behavior: smooth;
   }
 
-  .primary-button {
-    @apply flex transform bg-white py-3 px-8 align-middle font-bold uppercase text-primary-pink shadow-pink transition duration-300 ease-in-out hover:translate-x-1 hover:translate-y-1 hover:bg-primary-pink hover:text-white hover:shadow-white;
+  .secondary-button {
+    @apply button-hover my-auto flex h-10 rounded-lg border border-dark-border px-4 text-sm font-medium text-dark-700;
   }
 
-  .primary-button-small {
-    @apply my-auto flex w-32 transform bg-white py-3 px-5 text-center align-middle text-sm font-bold uppercase text-primary-pink shadow-pink transition duration-300 ease-in-out hover:bg-primary-pink hover:text-white hover:shadow-white;
+  .primary-button {
+    @apply primary-button-hover my-auto flex h-10 rounded-lg bg-primary-600 px-4 text-sm font-medium text-white;
+  }
+
+  .tag {
+    @apply my-auto flex h-10 rounded-lg bg-primary-50 px-4 text-sm font-medium text-primary-700;
+  }
+
+  .small-tag {
+    @apply my-auto flex h-6 rounded-full bg-primary-50 px-4 text-sm font-medium text-primary-700;
+  }
+
+  .button-slot {
+    @apply my-auto flex  align-middle;
+  }
+
+  .navigation-item {
+    @apply button-hover mx-0.5 my-auto flex h-10 flex-col justify-center rounded-md px-3 align-middle font-medium capitalize text-dark-700;
+  }
+
+  .icon {
+    @apply button-hover my-auto mx-0.5 flex h-10 w-10 justify-center rounded-md align-middle;
+  }
+
+  .button-hover {
+    @apply transition duration-200 ease-linear hover:bg-dark-50;
+  }
+
+  .primary-button-hover {
+    @apply transition duration-200 ease-linear hover:bg-primary-700;
+  }
+
+  .search-holder {
+    @apply my-auto flex h-11 rounded-lg border border-dark-border  text-sm font-medium text-dark-700 transition duration-200 focus-within:ring-1 focus-within:ring-primary-600;
+  }
+
+  .search-input {
+    @apply h-full w-full rounded-r-lg pr-2 focus:outline-none;
+  }
+
+  .table-header {
+    @apply bg-white px-4 py-3.5 text-left text-xs font-medium text-dark-500 lg:px-6;
+  }
+
+  .table-data-cell {
+    @apply h-72px px-4 py-3 lg:px-6;
+  }
+
+  .table-checkbox {
+    @apply mx-auto my-auto flex justify-center px-4 align-middle;
   }
 }

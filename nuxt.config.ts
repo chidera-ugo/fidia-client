@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'metasino-landing',
+    title: 'fidia-client',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -15,22 +15,21 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['aos/dist/aos.css', '@/assets/css/tailwind.css'],
+  css: ['@/assets/css/tailwind.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     {
-      src: '~/plugins/aos.js',
+      src: '@/plugins/apexcharts',
       mode: 'client',
     },
-    '@/plugins/vue-slick-carousel.js',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: [
-    '~/components/sections',
     '~/components/primary',
-    '~/components/others',
+    '~/components/dashboard',
+    '~/components/inputs',
     '~/components/cards',
   ],
 

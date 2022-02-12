@@ -9,39 +9,58 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        primary: ['IBM Plex Sans Thai Looped'],
-        secondary: ['Josefin Sans'],
+        primary: ['Inter'],
       },
-      fontSize: {
-        '7.5xl': '5.5rem',
+      spacing: {
+        '72px': '72px',
+        '64px': '64px',
+        '185px': '185px',
+        '113px': '113px',
+        '320px': '320px',
+        '120px': '120px',
+        '60px': '60px',
       },
       colors: {
         primary: {
-          pink: '#f91e68',
-          'dark-blue': '#000033',
-          'light-blue': '#5E72EB',
+          50: '#F9F5FF',
+          600: '#7F56D9',
+          700: '#6941C6',
         },
-        gradient: {
-          'hero-blue': '#034389',
-          'hero-dark': '#190812',
-          'left-dark': '#241124',
+        dark: {
+          900: '#101828',
+          700: '#344054',
+          500: '#667085',
+          200: '#EAECF0',
+          100: '#F2F4F7',
+          50: '#F9FAFB',
+          border: '#D0D5DD',
+        },
+        error: {
+          500: '#F04438',
+          700: '#B42318',
+        },
+        success: {
+          50: '#ECFDF3',
+          500: '#12B76A',
+          700: '#027A48',
         },
       },
       screen: {
         mobile: '480px',
       },
-      maxWidth: {
-        tablet: '1280px',
+      borderWidth: {
+        1.5: '1.5px',
       },
-      spacing: {
-        104: '26rem',
+      maxWidth: {
+        laptop: '1280px',
+      },
+      minWidth: {
+        laptop: '1024px',
+        '180px': '180px',
       },
       boxShadow: {
-        pink: '2.5px 2.5px 0px #f91e68',
-        white: '2.5px 2.5px 0px #ffffff',
-      },
-      textShadow: {
-        lg: '2px 2px 0px #f91e68',
+        'primary-md':
+          '0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06)',
       },
       keyframes: {
         float: {
@@ -51,14 +70,8 @@ module.exports = {
       },
       animation: {
         float: 'float 3s ease-in-out infinite',
-        glide: 'float 6s ease-in-out infinite',
-        fleet: 'float 2s ease-in-out infinite',
-        roose: 'float 4s ease-in-out infinite',
       },
     },
   },
-  plugins: [
-    require('tailwindcss-textshadow'),
-    require('@tailwindcss/line-clamp'),
-  ],
+  plugins: [require('@tailwindcss/line-clamp')],
 }

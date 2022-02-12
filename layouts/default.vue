@@ -1,8 +1,9 @@
 <template>
   <div>
     <NavigationBar />
-    <Nuxt />
-    <FooterArea />
+    <div class="mt-24 mb-0 sm:mb-12 sm:mt-120px lg:mt-185px">
+      <Nuxt />
+    </div>
   </div>
 </template>
 
