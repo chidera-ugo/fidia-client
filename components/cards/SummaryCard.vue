@@ -1,6 +1,6 @@
 <template>
   <div
-    class="summary-card-sm sm:summary-card col-span-4 my-5 rounded-lg border border-gray-200 bg-white p-4 sm:p-6 lg:my-0"
+    class="summary-card col-span-4 my-5 h-158px rounded-lg border border-gray-200 bg-white p-4 sm:h-176px sm:p-6 lg:my-0"
   >
     <div class="flex justify-between align-middle">
       <span class="my-auto font-medium capitalize text-dark-900">
@@ -147,13 +147,6 @@ export default Vue.extend({
 
 <style scoped>
 .summary-card {
-  height: 176px;
-  box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1),
-    0px 1px 2px rgba(16, 24, 40, 0.06);
-}
-
-.summary-card-sm {
-  height: 158px;
   box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1),
     0px 1px 2px rgba(16, 24, 40, 0.06);
 }
