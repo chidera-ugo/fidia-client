@@ -187,36 +187,3 @@ export const state = (): {
     id: Date.now().toLocaleString(),
   },
 })
-
-// export const getters = {
-//   getProductById: (state: any) => (id: number) => {
-//     return state.products.find((product: IProduct) => id === product.id)
-//   },
-// }
-
-// export const mutations = {
-//   addItem: (state: any, id: number) => {
-//     const item = state.products.find((product: IProduct) => id === product.id)
-//     state.myItems.push(item)
-//   },
-// }
-
-//  computed: {
-//     product() {
-//       return this.$store.getters.getProductById(Number(this.$route.params.id))
-//     },
-//   },
-//   methods: {
-//     toggleShowModal() {
-//       this.showModal = !this.showModal
-//     },
-//     ...mapMutations(['addItem']),
-//   },
-
-// <img
-//   v-for="(user, index) in row.users.slice(0, 4)"
-//   :key="user"
-//   :src="user"
-//   :style="`left: ${index * 20}px`"
-//   class="absolute h-6 w-6 rounded-full border-1.5"
-// />

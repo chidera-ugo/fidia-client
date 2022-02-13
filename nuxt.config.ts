@@ -29,8 +29,11 @@ export default {
   components: [
     '~/components/primary',
     '~/components/dashboard',
+    '~/components/tables',
     '~/components/inputs',
     '~/components/cards',
+    // nested components
+    '~/components/tables/CompaniesTable/cells',
   ],
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules

@@ -1,10 +1,10 @@
-import SwaggerBox from '@/components/inputs/SwaggerBox'
+import CheckBox from '../../inputs/CheckBox'
 
 export default [
   {
-    name: SwaggerBox,
-    titleClass: 'table-header',
-    dataClass: 'table-data-cell',
+    name: CheckBox,
+    titleClass: 'bg-white',
+    dataClass: 'table-checkbox',
   },
   {
     name: 'company.name',
