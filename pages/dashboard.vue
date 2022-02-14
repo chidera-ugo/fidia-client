@@ -44,7 +44,7 @@ export default Vue.extend({
       },
       {
         date: '2022-02-06T23:00:00.000Z',
-        count: 92,
+        count: 49,
       },
     ]
 
@@ -53,19 +53,19 @@ export default Vue.extend({
         title: 'Total Customers',
         value: 2420,
         difference: 40,
-        data: prefillDateRange(res, 7).reverse(),
+        data: prefillDateRange(res, 7),
       },
       {
         title: 'Members',
         value: 1210,
         difference: -10,
-        data: prefillDateRange(res, 7),
+        data: prefillDateRange(res, 7).reverse(),
       },
       {
         title: 'Active Now',
         value: 316,
         difference: 20,
-        data: prefillDateRange(res, 7).reverse(),
+        data: prefillDateRange(res, 7),
       },
     ]
 
