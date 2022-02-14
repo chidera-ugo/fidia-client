@@ -24,7 +24,7 @@ export default Vue.extend({
     const res = [
       {
         date: '2022-02-13T23:00:00.000Z',
-        count: 41,
+        count: 71,
       },
       {
         date: '2022-02-12T23:00:00.000Z',
