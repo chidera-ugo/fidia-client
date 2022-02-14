@@ -20,7 +20,7 @@ export const prefillDateRange = (
     if (resultMap[presentDate.toISOString()]) {
       summary.push(resultMap[presentDate.toISOString()])
     } else {
-      summary.push({ date: presentDate.toISOString(), count: 24 })
+      summary.push({ date: presentDate.toISOString(), count: 52 })
     }
 
     presentDate.setDate(presentDate.getDate() - 1)
